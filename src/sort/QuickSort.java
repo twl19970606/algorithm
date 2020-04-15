@@ -1,5 +1,7 @@
 package sort;
 
+import java.util.Arrays;
+
 /**
  * @ClassName QuickSort
  * @Author tang
@@ -15,6 +17,12 @@ public class QuickSort {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]+",");
         }
+    }
+
+    public void sortInStream(){
+        int[] array = {5,88,47,56,8,12,34,54,63,99,21,77,65,3,58};
+        int[] array1 = Arrays.stream(array).sorted().toArray();
+        Arrays.sort(array);
     }
 
     public static void QuickSort(int[] arr,int low,int high){
