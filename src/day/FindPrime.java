@@ -1,4 +1,4 @@
-package sort;
+package day;
 
 /**
  * @ClassName FindPrime
@@ -6,6 +6,10 @@ package sort;
  * @Description 查找质数
  * @Date 2020/4/15 0015 下午 3:57
  * @Version 1.0
+ */
+
+/**
+ * 求区间内的所有质数
  */
 public class FindPrime {
 
